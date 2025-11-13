@@ -43,4 +43,11 @@ public class Hangman {
         this.userGuess = userGuess;
     }
 
+    @Override
+    public String toString() {
+        return "Hangman{" +
+                "userGuess='" + userGuess + '\'' +
+                ", secretWord='" + secretWord + '\'' +
+                '}';
+    }
 }
