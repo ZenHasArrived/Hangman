@@ -33,7 +33,7 @@ public class PlayGame {
 
         }
 
-        System.out.println(aGame);
+        System.out.println(aGame); //Print aGame after loop finishes
 
     }
 
