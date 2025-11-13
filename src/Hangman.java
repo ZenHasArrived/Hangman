@@ -8,19 +8,19 @@ public class Hangman {
 
         rndNum = rnd.nextInt(5)+1;
         if(rndNum==1){
-            secretWord="Gas Station";
+            secretWord="pokemon";
         }
         else if(rndNum==2){
-            secretWord="Frieren";
+            secretWord="frieren";
         }
         else if(rndNum==3){
-            secretWord="Sakuya";
+            secretWord="sakuya";
         }
         else if(rndNum==4){
-            secretWord="Cybersecurity";
+            secretWord="cybersecurity";
         }
         else{
-            secretWord="Space Station";
+            secretWord="gentoo";
         }
 
         userGuess = secretWord.replaceAll(".","_");
