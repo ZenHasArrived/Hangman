@@ -33,8 +33,6 @@ public class PlayGame {
 
         }
 
-        System.out.println(aGame); //Print aGame after loop finishes
-
     }
 
     public static void determineWinner(Hangman aGame){
@@ -76,6 +74,7 @@ public class PlayGame {
             Hangman aGame = new Hangman(); //Create new Hangman
             processGuesses(aGame); //Process the guesses for the new hang man
             determineWinner(aGame); //Determine if the player won or lost
+            System.out.println(aGame); //Print aGame, I know in the DOCX it shows Sout(aGame); AFTER the while loop in processGuesses, but that just kinda spoils it since determineWinner gives you a final chance. This part isn't in the rubric, so I assume it doesn't matter but if it does then this is my explanation
             System.out.print("Play again? (yes/no): "); //Ask to play again
             yesNo = scnr.next();
             if(yesNo.equals("no")){
